@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Resources</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#notes">Notes</a></li>
+                <li><a href="#questions">Previous Year’s Questions</a></li>
+                <li><a href="#syllabus">Syllabus</a></li>
+                <li><a href="#class-routine">Class Routine</a></li>
+                <li><a href="#exam-routine">Exam Routine</a></li>
+                <li><a href="#resources">Other Resources</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Page Sections -->
+    <section id="home">
+        <div class="welcome-text">
+            <h1>Welcome to Study Resources</h1>
+            <p>Your one-stop platform for academic materials.</p>
+        </div>
+    </section>
+
+    <!-- Notes Section -->
+    <section id="notes">
+        <h2>Chapter-wise Notes</h2>
+        <div class="subjects">
+            <div class="subject-card">
+                <h3>Fundamentals of Mathematics</h3>
+                <a href="notes/fundamentals.html">View Notes</a>
+            </div>
+            <div class="subject-card">
+                <h3>Calculus I</h3>
+                <a href="notes/calculus1.html">View Notes</a>
+            </div>
+            <div class="subject-card">
+                <h3>Linear Algebra</h3>
+                <a href="notes/linearalgebra.html">View Notes</a>
+            </div>
+            <div class="subject-card">
+                <h3>Non-major Physics I</h3>
+                <a href="notes/nonmajorphysics1.html">View Notes</a>
+            </div>
+            <div class="subject-card">
+                <h3>Non-major Physics II</h3>
+                <a href="notes/nonmajorphysics2.html">View Notes</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Previous Year's Questions Section -->
+    <section id="questions">
+        <h2>Previous Year's Questions</h2>
+        <div class="subjects">
+            <div class="subject-card">
+                <h3>Fundamentals of Mathematics</h3>
+                <a href="questions/fundamentals.html">View Questions</a>
+            </div>
+            <div class="subject-card">
+                <h3>Calculus I</h3>
+                <a href="questions/calculus1.html">View Questions</a>
+            </div>
+            <!-- Repeat for other subjects -->
+        </div>
+    </section>
+
+    <!-- Syllabus Section -->
+    <section id="syllabus">
+        <h2>Syllabus</h2>
+        <div class="syllabus-list">
+            <button onclick="window.location.href='syllabus/fundamentals.pdf'">Download Fundamentals Syllabus</button>
+            <button onclick="window.location.href='syllabus/calculus1.pdf'">Download Calculus I Syllabus</button>
+            <!-- Repeat for other subjects -->
+        </div>
+    </section>
+
+    <!-- Class Routine Section -->
+    <section id="class-routine">
+        <h2>Class Routine</h2>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Subject</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>Calculus I</td>
+                <td>9:00 AM</td>
+            </tr>
+            <!-- Repeat for other days -->
+        </table>
+    </section>
+
+    <!-- Exam Routine Section -->
+    <section id="exam-routine">
+        <h2>Exam Routine</h2>
+        <button onclick="window.location.href='exam-routine.pdf'">View Exam Routine</button>
+    </section>
+
+    <!-- Other Resources Section -->
+    <section id="resources">
+        <h2>Other Resources</h2>
+        <button onclick="window.location.href='resources/resource1.pdf'">Download Resource 1</button>
+        <button onclick="window.location.href='resources/resource2.pdf'">Download Resource 2</button>
+        <!-- Repeat for other resources -->
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About</h2>
+        <p>This website provides access to educational resources, notes, and more.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Study Resources | <a href="https://www.example.com">Website</a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
